@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Conheça Mikaely Antonio Barbosa e sua proposta de cuidado em fisioterapia.">
+  <title>Mikaely Barbosa | Fisioterapia</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <header class="topbar">
+    <a class="logo" href="#">Mikaely Antonio Barbosa<span>.</span></a>
+    <nav>
+      <a href="#sobre">Sobre mim</a>
+      <a href="#atuacao">Atuação</a>
+      <a href="#contato">Contato</a>
+      <a class="nav-cta" href="#contato">Entre em contato</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">FISIOTERAPIA • NEURO-ORTOPEDIA • CUIDADO</p>
+        <h1>Movimento é qualidade de vida. <em>Cuidado é o começo.</em></h1>
+        <p class="intro">Um olhar atento para cada pessoa, respeitando sua história, seu tempo e suas necessidades. Meu propósito é acompanhar cada etapa do caminho com acolhimento, dedicação e cuidado.</p>
+        <a class="button" href="#sobre">Conheça minha história <span>↓</span></a>
+        <p class="small-note">Mikaely Antonio Barbosa · Fisioterapia</p>
+      </div>
+      <div class="hero-photo-wrap">
+        <div class="photo-accent"></div>
+        <img class="hero-photo" src="{{ url_for('static', filename='mikaely.jpg') }}" alt="Mikaely Antonio Barbosa, profissional da área de fisioterapia">
+        <div class="photo-caption">Cuidado em cada<br>etapa do movimento.</div>
+      </div>
+    </section>
+
+    <section class="profile section" id="sobre">
+      <div class="profile-heading">
+        <p class="eyebrow">PRAZER, SOU A MIKAELY</p>
+        <h2>Uma apresentação feita de <em>cuidado e propósito.</em></h2>
+      </div>
+      <div class="profile-copy">
+        <p class="lead">Olá! Eu sou <strong>Mikaely Antonio Barbosa</strong>.</p>
+        <p>Minha formação em Fisioterapia e minha especialização em Neuro-Ortopedia fortalecem meu compromisso com um cuidado individualizado, atento às necessidades e aos objetivos de cada pessoa.</p>
+        <p>Ao longo da minha trajetória, tenho vivenciado experiências com estágio, atendimentos e acompanhamentos, sempre valorizando a escuta, a dedicação e a evolução de cada paciente.</p>
+        <p>Acredito que cada processo é único e que pequenas conquistas também merecem ser celebradas. Quero contribuir para que cada pessoa encontre mais confiança, autonomia e qualidade de vida em seu movimento.</p>
+        <a class="text-link" href="#contato">Vamos conversar? <span>↗</span></a>
+      </div>
+    </section>
+
+    <section class="areas section" id="atuacao">
+      <div class="section-heading">
+        <div><p class="eyebrow">CUIDADO COM ATENÇÃO A CADA PESSOA</p><h2>Minha atuação</h2></div>
+        <p>Uma trajetória construída com aprendizado contínuo, prática e atenção individual.</p>
+      </div>
+      <div class="cards">
+        <article class="service-card"><span>01</span><div class="icon">✳</div><h3>Neuro-Ortopedia</h3><p>Conhecimento voltado à avaliação e ao cuidado de questões neurológicas e ortopédicas, respeitando as necessidades individuais.</p></article>
+        <article class="service-card"><span>02</span><div class="icon">〰</div><h3>Atendimentos</h3><p>Atenção humanizada durante os atendimentos, com escuta e cuidado em cada etapa.</p></article>
+        <article class="service-card"><span>03</span><div class="icon">♡</div><h3>Acompanhamento</h3><p>Presença e orientação ao longo do processo, valorizando objetivos e evolução individual.</p></article>
+      </div>
+      <p class="disclaimer">As informações desta página são institucionais. Procedimentos, serviços e atendimentos devem corresponder à habilitação profissional, ao registro e à atuação efetiva da profissional.</p>
+    </section>
+
+    <section class="quote">
+      <div class="quote-mark">“</div>
+      <h2>O cuidado está nos detalhes, na escuta e em cada passo da evolução.</h2>
+      <p>ACOLHIMENTO · DEDICAÇÃO · MOVIMENTO</p>
+    </section>
+
+    <section class="contact section" id="contato">
+      <div><p class="eyebrow">VAMOS CONVERSAR?</p><h2>Será um prazer falar com você.</h2><p>Entre em contato pelo WhatsApp ou acompanhe meu trabalho pelo Instagram.</p>
+        <div class="social-links"><a href="https://www.instagram.com/itsmikaax_/" target="_blank" rel="noopener">Instagram ↗</a></div>
+      </div>
+      <a class="button dark" href="https://wa.me/5516996159367" target="_blank" rel="noopener">Conversar pelo WhatsApp <span>↗</span></a>
+    </section>
+  </main>
+
+  <footer><a class="logo" href="#">Mikaely<span>.</span></a><p>Fisioterapia com acolhimento, dedicação e propósito.</p><small>© 2026 Mikaely Antonio Barbosa</small></footer>
+</body>
+</html>

@@ -1,0 +1,17 @@
+SITE DE MIKAELY ANTONIO BARBOSA - FISIOTERAPIA
+
+COMO EXECUTAR
+1. Extraia o ZIP.
+2. Abra a pasta no VS Code.
+3. No terminal, execute: pip install -r requirements.txt
+4. Execute: python app.py
+5. Acesse http://127.0.0.1:5000
+
+ONDE EDITAR
+- Textos e links: templates/index.html
+- Cores, fontes e layout: static/style.css
+- Foto: substitua static/mikaely.jpg por outra foto mantendo o mesmo nome.
+
+IMPORTANTE
+Confira os termos de formação/especialização e os serviços descritos antes de publicar.
+Inclua número de registro profissional e informações exigidas, quando aplicável.
